@@ -1,0 +1,64 @@
+html,body{
+    margin: 0;
+    min-height: 100vh;
+   
+}
+/*HEADER*/
+
+
+.primeira-barra-preta{
+    height: 14px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.body-total{
+    width: 95%;
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.logo-header{
+    position: relative;
+    top: 10px;
+    width: 8%;
+    z-index: 1;
+    transition: 1ms;
+}
+
+.header-menu{
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 50%;
+    list-style-type: none;
+    position:relative;
+    top: 50px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.header-menu li{
+    color: #000000;
+    float: left;
+    width: 20%;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.pesquisa{
+    position: absolute;
+    width: 28px;
+    right: 0px;
+    top: 40px;
+}
+
+
+
+ 
+
+   
