@@ -119,8 +119,7 @@ body {
     width: 48%;
 }
 
-.imagem-linha-secundaria img
-{
+.imagem-linha-secundaria img {
     width: 100%;
 }
 
@@ -134,12 +133,4 @@ body {
     width: 100%;
 }
 
-.new-arrivals{
-    float: right;
-    margin-right: -80px;
-    margin-top: 2%;
-}
-
-.new-arrivals span {
-    font: bold 30px 'Roboto';
-}
+/*fazer NEW ARRIVALS como colocar os elementos centrados no ficheiro de css e html
