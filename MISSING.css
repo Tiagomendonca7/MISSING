@@ -72,16 +72,18 @@ body {
 
 @media screen and (max-width: 800px) {
     .header-menu {
-        top: 25px;
+        top: 22px;
+        width: 70%;
     }
 
     .header-menu li {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .pesquisa {
         width: 3%;
-        margin-top: 25px;
+        margin-top: 20px;
+        right: 16px;
     }
 }
 
