@@ -72,32 +72,36 @@ body {
 
 @media screen and (max-width: 800px) {
     .header-menu {
-        top: 35px;
+        top: 22px;
+        width: 70%;
     }
 
     .header-menu li {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .pesquisa {
         width: 3%;
-        margin-top: 25px;
+        margin-top: 20px;
+        right: 16px;
     }
 }
 
 @media screen and (max-width: 550px) {
     .header-menu {
-        top: 22px;
+        top: 20px;
+        width: 70%;
     }
 
     .header-menu li {
-        font-size: 7px;
+        font-size: 9px;
+        width: 20%;
     }
 
     .pesquisa {
-        width: 3%;
-        margin-top: 18px;
-        right: 10px;
+        width: 3.5%;
+        margin-top: 15px;
+        right: 13px;
 
     }
 }
