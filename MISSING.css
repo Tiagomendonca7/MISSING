@@ -3,6 +3,7 @@ body {
     margin: 0;
     min-height: 100vh;
 
+
 }
 
 /*HEADER*/
@@ -106,7 +107,7 @@ body {
     }
 }
 
-.imagem-principal {
+.slider {
     width: 100%;
     margin-top: 3%;
 }
@@ -127,14 +128,80 @@ body {
     width: 100%;
 }
 
-.imagem-linha-secundaria-direita {
+.imagem-quadrado-direito {
     width: 48%;
     float: right;
     transform: translateY(-100%);
 }
 
-.imagem-linha-secundaria-direita img {
+.imagem-quadrado-direito img {
     width: 100%;
 }
+
+.imagem-quadrado-direito p {
+    border: 3px solid #fff;
+    padding: 3% 6%;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    font: 300 15px 'Roboto';
+    color: #fff;
+    cursor: pointer;
+    transition: 100ms;
+    text-align: center:
+}
+
+.imagem-quadrado-direito p:hover {
+    color: #000;
+    font: bold 15px 'Roboto';
+    background-color: #ffffff;
+}
+
+.intagram-ver{
+    border: 3px solid #fff;
+    padding: 5px 60px;
+    position: absolute;
+    text-align: center;
+
+
+}
+
+@media screen and (max-width:1200px) {
+    .imagem-quadrado-direito p{
+        font-size: 15px;
+        bottom: 30px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .imagem-quadrado-direito p{
+        font-size: 12px;
+        bottom: 25px;
+    }
+
+    .imagem-quadrado p:hover {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .imagem-quadrado-direito p {
+        font-size: 10px;
+        border: 1px solid #fff;
+        bottom: 20px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .imagem-quadrado-direito p {
+        font-size: 5px;
+        bottom: 15px;
+    }
+    .imagem-quadrado-direito p:hover {
+        font-size: 5px;
+    }
+}
+
 
 /*fazer NEW ARRIVALS como colocar os elementos centrados no ficheiro de css e html
