@@ -375,3 +375,24 @@ a {
     width: 100%;
 }
 
+.menu-footer {
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 50%;
+    list-style-type: none;
+    position: absolute;
+    top:37px;
+    right:0px;
+    cursor: pointer;
+}
+
+.menu-footer li {
+    color: #fff;
+    float:right;
+    width: 20%;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+}
+
