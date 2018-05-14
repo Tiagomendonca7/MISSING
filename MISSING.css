@@ -12,7 +12,7 @@ a {
 
 .primeira-barra-preta {
     height: 14px;
-    width: 100%;
+    width: 100vw;
     background-color: #000000;
 }
 
@@ -26,7 +26,7 @@ a {
     position: relative;
     top: 10px;
     width: 8%;
-    margin-bottom: 1.5%;
+    margin-bottom: 2%;
 }
 
 .header-menu {
@@ -59,6 +59,9 @@ a {
 }
 
 @media screen and (max-width: 1030px) {
+    .header-logo{
+        margin-bottom: 2%;
+    }
     .header-menu {
         top: 40px;
     }
@@ -74,6 +77,9 @@ a {
 }
 
 @media screen and (max-width: 800px) {
+    .header-logo{
+        margin-bottom: 3%;
+    }
     .header-menu {
         top: 22px;
         width: 70%;
@@ -178,6 +184,7 @@ a {
 
 .quadrados {
     margin-top: 2%;
+    margin-bottom: 6%;
 }
 
 .imagem-quadrado-esquerdo {
@@ -337,5 +344,34 @@ a {
     }
 }
 
+/*Footer*/
 
-/*fazer NEW ARRIVALS como colocar os elementos centrados no ficheiro de css e html
+.barra-preta-footer{
+    width: 100vw;
+    height: 90px;
+    background: #000;
+    position: relative;
+}
+
+.rede-social{
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding:0px;
+    float: right;
+    width: 50%;
+    list-style-type: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.rede-social li{
+    float: left;
+    width: 4%;
+    padding-right: 50px;
+}
+
+.rede-social img{
+    width: 100%;
+}
+
