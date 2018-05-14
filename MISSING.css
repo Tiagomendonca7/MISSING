@@ -117,11 +117,11 @@ body {
     width: 100%;
 }*/
 
-.swiper-container{
+.swiper-container {
     width: 100%;
 }
 
-.swiper-container img{
+.swiper-container img {
     width: 100%;
 }
 
@@ -130,46 +130,47 @@ body {
     height: auto;
     display: inline-block;
     border-radius: 0;
+    padding-left:0.3vw;
     background: transparent;
-    opacity: 0.;
+    opacity: 0.5;
     fill: #fff;
 }
 
-.swiper-pagination-bullet-active * {
-    fill: #fff;
+.swiper-pagination-bullet-active {
+    opacity: 1;
 }
 
-.quadrados{
+.quadrados {
     margin-top: 2%;
 }
 
 .imagem-quadrado-esquerdo {
     width: 48%;
-  position: relative;
+    position: relative;
 }
 
 .imagem-quadrado-esquerdo img {
     width: 100%;
 }
 
-.imagem-quadrado-esquerdo-click{
+.imagem-quadrado-esquerdo-click {
     border: 3px solid #fff;
     padding: 3% 6%;
     position: absolute;
     bottom: 40px;
     left: 50%;
     transform: translate(-50%);
-    font:300 15px 'Roboto';
+    font: 300 15px 'Roboto';
     color: #fff;
     cursor: pointer;
     transition: 100ms;
     text-align: center:
 }
 
-.imagem-quadrado-esquerdo-click:hover{
+.imagem-quadrado-esquerdo-click:hover {
     background-color: #ffffff;
     color: #000;
-    font:900 15px 'Roboto';
+    font: 900 15px 'Roboto';
 }
 
 .imagem-quadrado-direito {
@@ -182,14 +183,14 @@ body {
     width: 100%;
 }
 
-.imagem-quadrado-direito-click{
+.imagem-quadrado-direito-click {
     border: 3px solid #fff;
     padding: 3% 6%;
     position: absolute;
     bottom: 40px;
     left: 50%;
     transform: translate(-50%);
-    font:300 15px 'Roboto';
+    font: 300 15px 'Roboto';
     color: #fff;
     cursor: pointer;
     transition: 100ms;
@@ -204,13 +205,14 @@ body {
 }
 
 /*Media query dos dois quadrado instagram e watch video*/
+
 @media screen and (max-width:1200px) {
-    .imagem-quadrado-esquerdo-click{
+    .imagem-quadrado-esquerdo-click {
         font-size: 15px;
         bottom: 30px;
     }
 
-    .imagem-quadrado-direito-click{
+    .imagem-quadrado-direito-click {
         font-size: 15px;
         bottom: 30px;
     }
@@ -218,17 +220,17 @@ body {
 }
 
 @media screen and (max-width:950px) {
-    .imagem-quadrado-esquerdo-click{
+    .imagem-quadrado-esquerdo-click {
         font-size: 12px;
         bottom: 25px;
     }
 
-    .imagem-quadrado-direito-click{
+    .imagem-quadrado-direito-click {
         font-size: 12px;
         bottom: 25px;
     }
 
-    .imagem-quadrado-esquerdo-click:hover{
+    .imagem-quadrado-esquerdo-click:hover {
         font-size: 12px;
     }
 
@@ -238,7 +240,7 @@ body {
 }
 
 @media screen and (max-width:800px) {
-    .imagem-quadrado-esquerdo-click{
+    .imagem-quadrado-esquerdo-click {
         font-size: 10px;
         border: 1px solid #fff;
         bottom: 20px;
@@ -252,7 +254,7 @@ body {
 }
 
 @media screen and (max-width:650px) {
-    .imagem-quadrado-esquerdo-click{
+    .imagem-quadrado-esquerdo-click {
         font-size: 5px;
         bottom: 15px;
     }
@@ -262,7 +264,7 @@ body {
         bottom: 15px;
     }
 
-    .imagem-quadrado-esquerdo-click:hover{
+    .imagem-quadrado-esquerdo-click:hover {
         font-size: 5px;
     }
 
