@@ -350,7 +350,8 @@ a {
 /*Footer*/
 
 .barra-preta-footer {
-    height:90px;;
+    height: 90px;
+    ;
     width: 100vw;
     background: #000;
     position: relative;
@@ -448,11 +449,10 @@ a {
 @media screen and (max-width:667px) {
     .rede-social {
         margin-left: 20px;
-
     }
     .rede-social li {
         width: 7%;
-        padding-right: 38px;
+        padding-right: 35px;
     }
 
     .menu-footer {
@@ -467,7 +467,7 @@ a {
 
 
 @media screen and (max-width:375px) {
-    .barra-preta-footer{
+    .barra-preta-footer {
         height: 60px;
     }
     .rede-social {
@@ -492,5 +492,3 @@ a {
         padding: 2px;
     }
 }
-
-
