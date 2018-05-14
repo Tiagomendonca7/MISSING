@@ -445,23 +445,23 @@ a {
     }
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:667px) {
     .rede-social {
         margin-left: 20px;
 
     }
     .rede-social li {
         width: 7%;
-        padding-right: 35px;
+        padding-right: 38px;
     }
 
     .menu-footer {
-        right: 10px;
+        right: 14px;
         top: 34px;
     }
 
     .menu-footer li {
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 
