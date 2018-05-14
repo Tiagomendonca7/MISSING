@@ -107,6 +107,16 @@ body {
     }
 }
 
+.header-mobile-logo{
+    width: 10%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.header-mobile-logo img{
+    width: 100%;
+}
+
 .slider {
     width: 100%;
     margin-top: 3%;
