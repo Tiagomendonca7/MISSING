@@ -3,13 +3,13 @@
   "name": "MISSING-New-Brand",
   "icons": [
     {
-      "src": "/LOGO/Símbolo-192-preto-01.svg",
-      "type": "image/svg",
+      "src": "/LOGO/símbolo192-preto-01.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/LOGO/Logo-vertical-512-01.svg",
-      "type": "image/svg",
+      "src": "/LOGO/logo512-preto-01.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],

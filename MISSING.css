@@ -32,10 +32,10 @@ a {
     margin: 0;
     padding: 0;
     float: right;
-    width: 50%;
+    width: 45%;
     list-style-type: none;
     position: relative;
-    top: 45px;
+    top: 65px;
     right: 50%;
     transform: translateX(50%);
     cursor: pointer;
@@ -54,7 +54,7 @@ a {
     position: absolute;
     width: 2%;
     right: 45px;
-    margin-top: 40px;
+    margin-top: 65px;
 }
 
 @media screen and (max-width: 1030px) {
