@@ -3,12 +3,12 @@
   "name": "MISSING WEAR",
   "icons": [
     {
-      "src": "LOGO/SÍMBOLO-MISSING.svg",
+      "src": "/LOGO/SÍMBOLO-MISSING.svg",
       "type": "image/svg",
       "sizes": "192x192"
     },
     {
-      "src": "LOGO/Logo-Vertical-01.svg",
+      "src": "/LOGO/Logo-Vertical-01.svg",
       "type": "image/svg",
       "sizes": "512x512"
     }
