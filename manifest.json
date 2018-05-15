@@ -13,9 +13,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "",
-  "background_color": "#000",
+  "start_url": "https://tiagomendonca7.github.io/MISSING/",
+  "background_color": "#fff",
   "display": "standalone",
-  "scope": "/maps/",
+  "scope": "/MISSING/",
   "theme_color": "#000"
 }
