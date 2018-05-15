@@ -1,6 +1,6 @@
 {
   "short_name": "MISSING",
-  "name": "MISSING WEAR",
+  "name": "MISSING-New-Brand",
   "icons": [
     {
       "src": "/LOGO/Símbolo-192-preto-01.svg",
@@ -8,7 +8,7 @@
       "sizes": "192x192"
     },
     {
-      "src": "/LOGO/Logo-Vertical-01.svg",
+      "src": "/LOGO/Logo-vertical-512-01.svg",
       "type": "image/svg",
       "sizes": "512x512"
     }
