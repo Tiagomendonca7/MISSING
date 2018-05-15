@@ -13,10 +13,10 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://tiagomendonca7.github.io/MISSING/",
+  "start_url": "/",
   "background_color": "#fff",
   "display": "standalone",
   "orientation": "landscape",
-  "scope": "/MISSING/",
-  "theme_color": "#000"
+  "theme_color": "#000",
+  "background_color": "#fff"
 }
