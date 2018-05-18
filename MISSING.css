@@ -260,13 +260,12 @@ ol {
     width: 100%;
     display: inline-block;
     padding: 0;
-    margin-top: 20px;
 }
 
 .new-arrivals li {
     width: 17%;
     float: left;
-    margin: 20px;
+    margin: 1.5%;
 }
 
 .new-arrivals img {
