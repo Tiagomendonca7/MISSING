@@ -132,6 +132,7 @@ a {
     width: 100%;
 }*/
 
+/*Container*/
 .slider {
     position: relative;
 }
@@ -318,34 +319,68 @@ a {
 
 @media screen and (max-width:650px) {
     .button-slide h1 {
-        font-size: 10px;
+        font-size: 25px;
         font-weight: 700;
     }
 
     .button-slide p {
-        font-size: 5px;
-        border: 1px solid #fff;
+        font-size: 15px;
+        border: 2px solid #fff;
         padding: 3px;
+        width: 50%;
     }
 
     .imagem-quadrado-esquerdo-click {
-        font-size: 5px;
-        bottom: 15px;
+        font-size: 12px;
+        bottom: 25px;
     }
 
     .imagem-quadrado-direito-click {
-        font-size: 5px;
-        bottom: 15px;
+        font-size: 12px;
+        bottom: 25px;
     }
 
     .imagem-quadrado-esquerdo-click:hover {
-        font-size: 5px;
+        font-size: 12px;
     }
 
     .imagem-quadrado-direito-click:hover {
-        font-size: 5px;
+        font-size: 12px;
     }
 }
+
+@media screen and (max-width:375px) {
+    .button-slide h1 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .button-slide p {
+        font-size: 9px;
+        border: 1px solid #fff;
+        padding: 3px;
+        width: 50%;
+    }
+
+    .imagem-quadrado-esquerdo-click {
+        font-size: 9px;
+        bottom: 18px;
+    }
+
+    .imagem-quadrado-direito-click {
+        font-size: 9px;
+        bottom: 18px;
+    }
+
+    .imagem-quadrado-esquerdo-click:hover {
+        font-size: 9px;
+    }
+
+    .imagem-quadrado-direito-click:hover {
+        font-size: 9px;
+    }
+}
+
 
 /*Footer*/
 
