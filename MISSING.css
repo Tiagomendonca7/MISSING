@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+ol {
+    list-style: none;
+}
+
 /*HEADER*/
 
 .primeira-barra-preta {
@@ -133,6 +137,7 @@ a {
 }*/
 
 /*Container*/
+
 .slider {
     position: relative;
 }
@@ -188,12 +193,13 @@ a {
 
 .quadrados {
     margin-top: 2%;
-    margin-bottom: 6%;
+
 }
 
 .imagem-quadrado-esquerdo {
     width: 48%;
     position: relative;
+    display: inline-block;
 }
 
 .imagem-quadrado-esquerdo img {
@@ -223,7 +229,7 @@ a {
 .imagem-quadrado-direito {
     width: 48%;
     float: right;
-    transform: translateY(-100%);
+    position: relative;
 }
 
 .imagem-quadrado-direito img {
@@ -248,10 +254,26 @@ a {
     color: #000;
     font: 900 15px 'Roboto';
     background-color: #ffffff;
-
 }
 
-/*Media query dos dois quadrado instagram e watch video*/
+.new-arrivals {
+    width: 100%;
+    display: inline-block;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.new-arrivals li {
+    width: 17%;
+    float: left;
+    margin: 20px;
+}
+
+.new-arrivals img {
+    width: 100%;
+}
+
+/*Media query container*/
 
 @media screen and (max-width:1200px) {
     .button-slide h1 {
@@ -391,11 +413,9 @@ a {
 
 .barra-preta-footer {
     height: 90px;
-    ;
     width: 100vw;
     background: #000;
     position: relative;
-
 }
 
 .rede-social {
