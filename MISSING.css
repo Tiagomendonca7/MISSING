@@ -357,26 +357,31 @@ a {
 
     .button-slide p {
         font-size: 9px;
+        font-weight: 400;
         border: 1px solid #fff;
         padding: 3px;
         width: 50%;
     }
 
     .imagem-quadrado-esquerdo-click {
+        font-weight: 400;
         font-size: 9px;
         bottom: 18px;
     }
 
     .imagem-quadrado-direito-click {
+        font-weight: 400;
         font-size: 9px;
         bottom: 18px;
     }
 
     .imagem-quadrado-esquerdo-click:hover {
+        font-weight: 400px;
         font-size: 9px;
     }
 
     .imagem-quadrado-direito-click:hover {
+        font-weight: 400;
         font-size: 9px;
     }
 }
