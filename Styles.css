@@ -35,6 +35,7 @@ ul {
 
 .header{
     position: relative;
+    z-index: 1000;
 }
 
 .header-logo {
@@ -84,6 +85,7 @@ ul {
 
 .header-submenu ul {
     padding: 0;
+
 }
 
 .header-submenu li {
@@ -91,11 +93,12 @@ ul {
     width: 100%;
     color: #fff;
     margin-top: 5px;
+
 }
 
 .header-menu :hover .header-submenu {
     height: 130px;
-    opacity: 0.7;
+    opacity:0.8;
 }
 
 .busca {
@@ -208,7 +211,7 @@ ul {
 
 .slider {
     position: relative;
-    z-index: -1;
+
 }
 
 .swiper-container {
