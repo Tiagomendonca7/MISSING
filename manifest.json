@@ -1,9 +1,8 @@
 {
     "short_name": "MISSING",
-    "name": "MISSING",
     "icons": [
         {
-            "src": "LOGO/INSTA-01.png",
+            "src": "LOGO/120px-simbolo-01.png",
             "type": "image/png",
             "sizes": "192x192"
     },
