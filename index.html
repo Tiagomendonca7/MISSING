@@ -2,15 +2,14 @@
 <html>
 
 <head>
+    <title>missingwear.com</title>
+    <favicon><img src="LOGO/INSTA-01.png" alt=""></favicon>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.6/css/swiper.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="Styles.css">
-
 </head>
 
 <body>
@@ -19,14 +18,28 @@
         <!--header-->
         <div class="header">
             <img src="LOGO/S%C3%8DMBOLO-MISSING.svg" class="header-logo">
+
             <ul class="header-menu">
-                <li>SHOP</li>
+                <li>SHOP
+                    <div class="header-submenu">
+                        <ul>
+                            <li>New Arrivals</li>
+                            <li>T-Shirts</li>
+                            <li>Sweatshirts</li>
+                            <li>Accessories</li>
+                            <li>Sales</li>
+                        </ul>
+                    </div>
+                </li>
                 <li>BLOG</li>
                 <li>TEAM </li>
                 <li>MISSING</li>
                 <li>ABOUT US</li>
             </ul>
-            <img src="IMG-ICONS/search.svg" alt="" class="pesquisa">
+            <div class="busca">
+                <input type="text" class="txtBusca" placeholder="Search..." />
+                <img src="IMG-ICONS/search.svg" alt="" class="pesquisa">
+            </div>
         </div>
 
         <!--header secundario <div class="header-mobile">
@@ -78,7 +91,7 @@
                     <div class="imagem-quadrado-direito-click">WATCH VIDEO</div>
                 </a>
             </div>
-
+            <h1>NEW ARRIVALS</h1>
             <ol class="new-arrivals">
                 <li><img src="IMG-ICONS/blusa.png"></li>
                 <li><img src="IMG-ICONS/blusa.png"></li>
@@ -86,6 +99,7 @@
                 <li><img src="IMG-ICONS/blusa.png"></li>
                 <li><img src="IMG-ICONS/blusa.png"></li>
             </ol>
+            <img src="LOGO/S%C3%8DMBOLO-MISSING.svg" class="simbolo-final">
         </div>
 
     </div>
@@ -100,7 +114,7 @@
                     <li><img src="Social-media/facebook.svg"></li>
                 </a>
                 <a href="https://www.snapchat.com/l/en-gb/" target="_blank">
-                    <li><img src="Social-media/snapchat.svg"></li>
+                    <li><img src="Social-media/snapchat.svg" id="Snapchat"></li>
                 </a>
                 <a href="https://vimeo.com/" target="_blank">
                     <li><img src="Social-media/vimeo.svg"></li>
