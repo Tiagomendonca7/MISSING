@@ -92,7 +92,7 @@ ul {
     font: 400 14px 'Roboto';
     width: 100%;
     color: #fff;
-    margin-top: 5px;
+    margin-top: 8px;
 
 }
 
@@ -102,11 +102,12 @@ ul {
 }
 
 .busca {
-    width: 230px;
+    width: 210px;
     display: inline-block;
     position: absolute;
     right: 0px;
     top: 60px;
+    transition: 100ms;
 }
 
 .txtBusca {
@@ -123,14 +124,13 @@ ul {
 
 .pesquisa {
     width: 12%;
-    margin-left: 50px;
-    transition: all height 100ms ease-in-out;
+    margin-left: 30px;
 }
 
-
-.txtBusca :hover .pesquisa{
-    opacity: 0;
+.hambur{
+    display:none;
 }
+
 
 @media screen and (max-width: 1030px) {
     .header-logo {
@@ -195,6 +195,41 @@ ul {
         right: 13px;
 
     }
+}
+
+@media screen and (max-width: 375px){
+    .header-menu{
+        display: none;
+    }
+    .header-logo{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .busca{
+        display: none;
+    }
+
+    .hambur{
+        width: 8%;
+        margin-bottom: 2%;
+        margin-left: 0;
+        position: absolute;
+        left:0;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .pesquisa-mobile{
+        width: 8%;
+        margin-bottom: 2%;
+        position: absolute;
+        right: 0;
+        margin-top: 10px;
+    }
+
+
 }
 
 
@@ -338,6 +373,8 @@ ul {
     width: 100%;
     display: inline-block;
     padding: 0;
+    margin-top: 2%;
+    margin-bottom: 0;
 }
 
 .new-arrivals li {
@@ -493,6 +530,14 @@ ul {
         font-weight: 400;
         font-size: 9px;
     }
+
+    .quadrados h1{
+        font-size: 15px;
+    }
+
+    .simbolo-final{
+        width: 6%;
+    }
 }
 
 
@@ -638,4 +683,5 @@ ul {
         width: 30%;
         padding: 2px;
     }
+
 }
