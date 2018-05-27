@@ -33,7 +33,7 @@ ul {
 
 }
 
-.header{
+.header {
     position: relative;
     z-index: 1000;
 }
@@ -98,7 +98,7 @@ ul {
 
 .header-menu :hover .header-submenu {
     height: 130px;
-    opacity:0.8;
+    opacity: 0.8;
 }
 
 .busca {
@@ -127,8 +127,12 @@ ul {
     margin-left: 30px;
 }
 
-.hambur{
-    display:none;
+.hambur {
+    display: none;
+}
+
+.pesquisa-mobile {
+    display: none;
 }
 
 
@@ -197,39 +201,39 @@ ul {
     }
 }
 
-@media screen and (max-width: 375px){
-    .header-menu{
+@media screen and (max-width: 375px) {
+    .header-menu {
         display: none;
     }
-    .header-logo{
+    .header-logo {
         position: relative;
         left: 50%;
         transform: translate(-50%);
     }
 
-    .busca{
+    .busca {
         display: none;
     }
 
-    .hambur{
+    .hambur {
         width: 8%;
         margin-bottom: 2%;
         margin-left: 0;
         position: absolute;
-        left:0;
+        left: 0;
         display: inline-block;
         margin-top: 10px;
     }
 
-    .pesquisa-mobile{
+    .pesquisa-mobile {
         width: 8%;
         margin-bottom: 2%;
         position: absolute;
         right: 0;
         margin-top: 10px;
+        display: inline-block;
+
     }
-
-
 }
 
 
@@ -531,11 +535,11 @@ ul {
         font-size: 9px;
     }
 
-    .quadrados h1{
+    .quadrados h1 {
         font-size: 15px;
     }
 
-    .simbolo-final{
+    .simbolo-final {
         width: 6%;
     }
 }
