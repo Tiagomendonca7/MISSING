@@ -54,6 +54,7 @@ ul {
     padding: 0;
     float: right;
     width: 50%;
+    height: 0;
     position: relative;
     top: 65px;
     right: 50%;
@@ -99,32 +100,32 @@ ul {
 .header-menu :hover .header-submenu {
     height: 130px;
     opacity: 0.8;
+    z-index: 10000;
 }
 
 .busca {
-    width: 210px;
-    display: inline-block;
     position: absolute;
-    right: 0px;
-    top:59px;
-    transition: 100ms;
-}
-
-.txtBusca {
-    float: left;
-    background-color: transparent;
-    outline: 0;
-    font: 300 16px 'Roboto';
-    border: 0;
-    padding: 0px;
-    height: 32px;
-    width: 150px;
-    overflow: hidden;
+    right: 0;
+    top: 65px;
 }
 
 .pesquisa {
-    width: 12%;
+    width: 4%;
     margin-left: 30px;
+    float: right;
+}
+
+.txtBusca {
+    float:right;
+    background-color: transparent;
+    font: 300 16px 'Roboto';
+    border: 0;
+    padding: 0px;
+    outline: none;
+}
+
+.pesquisa-768{
+    display: none;
 }
 
 .hambur {
@@ -136,7 +137,7 @@ ul {
 }
 
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
     .header-logo {
         margin-top: 20px;
         margin-bottom: 2%;
@@ -149,14 +150,18 @@ ul {
         font-size: 12px;
     }
 
-    .pesquisa {
-        width: 3%;
-        margin-top: 30px;
-        right: 25px;
+    .busca{
+        top: 35px;
+        }
+
+    .txtBusca{
+        width: 100px;
+        margin-top: 5px;
+        font-size: 12px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:768px) {
     .header-logo {
         margin-top: 15px;
         margin-bottom: 2%;
@@ -170,11 +175,18 @@ ul {
         font-size: 12px;
     }
 
-    .pesquisa {
-        width: 3%;
-        margin-top: 26px;
-        right: 16px;
+    .pesquisa-768{
+        width: 4%;
+        position: absolute;
+        right: 0;
+        top:25px;
+        display: inline-block;
     }
+
+    .busca{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 550px) {
