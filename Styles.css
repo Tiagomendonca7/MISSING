@@ -395,15 +395,8 @@ ul {
     font: 300 15px 'Roboto';
     color: #fff;
     cursor: pointer;
-    transition: 100ms;
     text-align: center;
     width: 50%;
-}
-
-.imagem-quadrado-esquerdo-click:hover {
-    background-color: #ffffff;
-    color: #000;
-    font: 900 15px 'Roboto';
 }
 
 .imagem-quadrado-direito {
@@ -426,15 +419,8 @@ ul {
     font: 300 15px 'Roboto';
     color: #fff;
     cursor: pointer;
-    transition: 100ms;
     text-align: center;
     width: 50%;
-}
-
-.imagem-quadrado-direito-click:hover {
-    color: #000;
-    font: 900 15px 'Roboto';
-    background-color: #ffffff;
 }
 
 .quadrados h1 {
@@ -513,14 +499,6 @@ ul {
         bottom: 25px;
     }
 
-    .imagem-quadrado-esquerdo-click:hover {
-        font-size: 12px;
-    }
-
-    .imagem-quadrado-direito-click:hover {
-        font-size: 12px;
-    }
-}
 
 @media screen and (max-width:800px) {
     .button-slide h1 {
@@ -554,7 +532,7 @@ ul {
     .button-slide p {
         font-size: 15px;
         border: 2px solid #fff;
-        padding: 3px;
+        padding: 3% 6%;
         width: 50%;
     }
 
@@ -566,14 +544,6 @@ ul {
     .imagem-quadrado-direito-click {
         font-size: 12px;
         bottom: 25px;
-    }
-
-    .imagem-quadrado-esquerdo-click:hover {
-        font-size: 12px;
-    }
-
-    .imagem-quadrado-direito-click:hover {
-        font-size: 12px;
     }
 
     .new-arrivals {
@@ -599,9 +569,10 @@ ul {
     }
 
     .see-more {
-        display: inline-block;
+        display: block;
         position: relative;
-        margin-top: -10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
         width: 80px;
         left: 50%;
         transform: translate(-50%);
@@ -650,16 +621,6 @@ ul {
         bottom: 18px;
     }
 
-    .imagem-quadrado-esquerdo-click:hover {
-        font-weight: 400px;
-        font-size: 9px;
-    }
-
-    .imagem-quadrado-direito-click:hover {
-        font-weight: 400;
-        font-size: 9px;
-    }
-
     .quadrados h1 {
         font-size: 15px;
     }
@@ -687,7 +648,7 @@ ul {
     }
 
     .see-more {
-        display: inline-block;
+        display:block;
         position: relative;
         margin-top: -10px;
         width: 80px;
@@ -719,7 +680,7 @@ ul {
         font-size: 12px;
         font-weight: 400;
         border: 1px solid #fff;
-        padding: 3px;
+        padding: 3% 6%;
         width: 70%;
     }
 
@@ -733,14 +694,6 @@ ul {
         font-weight: 400;
         font-size: 12px;
         bottom: 18px;
-    }
-
-    .imagem-quadrado-esquerdo-click:hover{
-       display: none;
-    }
-
-    .imagem-quadrado-direito-click:hover{
-      display: none;
     }
 
     .quadrados h1 {
