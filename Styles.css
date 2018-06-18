@@ -116,7 +116,7 @@ ul {
 }
 
 .txtBusca {
-    float:right;
+    float: right;
     background-color: transparent;
     font: 300 16px 'Roboto';
     border: 0;
@@ -124,7 +124,7 @@ ul {
     outline: none;
 }
 
-.pesquisa-768{
+.pesquisa-768 {
     display: none;
 }
 
@@ -150,11 +150,11 @@ ul {
         font-size: 12px;
     }
 
-    .busca{
+    .busca {
         top: 45px;
-        }
+    }
 
-    .txtBusca{
+    .txtBusca {
         width: 100px;
         margin-top: 5px;
         font-size: 12px;
@@ -175,15 +175,15 @@ ul {
         font-size: 12px;
     }
 
-    .pesquisa-768{
+    .pesquisa-768 {
         width: 4%;
         position: absolute;
         right: 0;
-        top:25px;
+        top: 25px;
         display: inline-block;
     }
 
-    .busca{
+    .busca {
         display: none;
     }
 
@@ -403,6 +403,14 @@ ul {
     width: 100%;
 }
 
+.new-arrivals-mobile{
+    display: none;
+}
+
+.see-more{
+    display: none;
+}
+
 .simbolo-final {
     width: 3%;
     margin-top: 0;
@@ -553,6 +561,42 @@ ul {
 
     .simbolo-final {
         width: 6%;
+    }
+
+    .new-arrivals {
+        display: none;
+    }
+
+    .new-arrivals-mobile {
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+
+    .new-arrivals-mobile li {
+        width: 30%;
+        float: left;
+        margin: 1.5%;
+    }
+
+    .new-arrivals-mobile img{
+        width: 100%;
+    }
+
+    .see-more{
+        display: block;
+        margin-bottom: 10px;
+        position:relative;
+        margin-top: 0;
+    }
+
+    .see-more p{
+        font: 300 12px 'Roboto';
+        text-align: center;
+        padding: 3px;
+
     }
 }
 
