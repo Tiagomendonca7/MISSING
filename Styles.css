@@ -1254,11 +1254,39 @@ p {
     .t-shirt-tittle {
         font: 400 12px 'Roboto';
         text-align: center;
-        transform: translateY(-1000%);
+        transform: translateY(-800%);
         z-index: -1000;
     }
 }
 
 @media screen and (max-width:414px) {}
 
-@media screen and (max-width:375px) {}
+@media screen and (max-width:375px) {
+    .t-shirt-img-left {
+       display: none;
+
+    }
+
+    .t-shirt-img-left li {
+      display: none;
+    }
+
+    .t-shirt-img-left img {
+        display: none;
+    }
+
+    .t-shirt-img-right {
+       display: none;
+
+    }
+
+    .t-shirt-img-right li {
+       display: none;
+    }
+
+    .t-shirt-img-right img {
+      display: none;
+    }
+
+
+}
