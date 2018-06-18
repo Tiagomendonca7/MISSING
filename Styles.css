@@ -152,13 +152,13 @@ ul {
         font-size: 16px;
     }
 
-    .header-submenu{
+    .header-submenu {
         width: 100%;
     }
 
-    .header-submenu li{
+    .header-submenu li {
         width: 100%;
-        font-size:14px;
+        font-size: 14px;
     }
 
     .busca {
@@ -912,70 +912,307 @@ ul {
 
 /*SHOP_MISSING_PAGE*/
 
-.shop{
+.shop {
     text-align: center;
     font: 500 20px 'Roboto';
 }
 
-.t-shirt{
+.t-shirt {
     position: relative;
     margin-bottom: 30px;
 
 }
 
-.t-shirt-img-left{
+.t-shirt-img-left {
     width: 40%;
     display: inline-block;
     margin: 0;
-    padding:0;
+    padding: 0;
     margin-top: 20px;
 
 }
 
-.t-shirt-img-left li{
+.t-shirt-img-left li {
     width: 45%;
     float: left;
-    margin:13px;
+    margin: 10px;
     padding: 0;
 }
 
-.t-shirt-img-left img{
+.t-shirt-img-left img {
     width: 100%;
 }
 
-.t-shirt-img-right{
+.t-shirt-img-right {
     width: 40%;
     display: inline-block;
     margin: 0;
-    padding:0;
+    padding: 0;
     margin-top: 20px;
     float: right;
 
 }
 
-.t-shirt-img-right li{
+.t-shirt-img-right li {
     width: 45%;
     float: left;
-    margin:13px;
+    margin: 10px;
     position: relative;
     right: 0;
     padding: 0;
 }
 
-.t-shirt-img-right img{
+.t-shirt-img-right img {
     width: 100%;
 }
 
-p{
+p {
     font: 400 12px 'Roboto';
     text-align: center;
 }
 
-.t-shirt-tittle{
+.t-shirt-tittle {
     font: 400 16px 'Roboto';
     text-align: center;
     transform: translateY(-1300%);
     z-index: -1000;
 }
 
+@media screen and(max-width:1367px) {
+    .shop {
+        text-align: center;
+        font: 500 20px 'Roboto';
+    }
 
+    .t-shirt {
+        position: relative;
+        margin-bottom: 30px;
+
+    }
+
+    .t-shirt-img-left {
+        width: 30%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+
+    }
+
+    .t-shirt-img-left li {
+        width: 15%;
+        float: left;
+        margin: 13px;
+        padding: 0;
+    }
+
+    .t-shirt-img-left img {
+        width: 60%;
+    }
+
+    .t-shirt-img-right {
+        width: 40%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        float: right;
+
+    }
+
+    .t-shirt-img-right li {
+        width: 45%;
+        float: left;
+        margin: 13px;
+        position: relative;
+        right: 0;
+        padding: 0;
+    }
+
+    .t-shirt-img-right img {
+        width: 100%;
+    }
+
+    p {
+        font: 400 12px 'Roboto';
+        text-align: center;
+    }
+
+    .t-shirt-tittle {
+        font: 400 16px 'Roboto';
+        text-align: center;
+        transform: translateY(-1300%);
+        z-index: -1000;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .shop {
+        text-align: center;
+        font: 500 20px 'Roboto';
+    }
+
+    .t-shirt {
+        position: relative;
+        margin-bottom: 30px;
+
+    }
+
+    .t-shirt-img-left {
+        width: 40%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+
+    }
+
+    .t-shirt-img-left li {
+        width: 43%;
+        float: left;
+        margin: 13px;
+        padding: 0;
+    }
+
+    .t-shirt-img-left img {
+        width: 100%;
+    }
+
+    .t-shirt-img-right {
+        width: 40%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        float: right;
+
+    }
+
+    .t-shirt-img-right li {
+        width: 43%;
+        float: left;
+        margin: 13px;
+        position: relative;
+        right: 0;
+        padding: 0;
+    }
+
+    .t-shirt-img-right img {
+        width: 100%;
+    }
+
+    p {
+        font: 400 12px 'Roboto';
+        text-align: center;
+    }
+
+    .t-shirt-tittle {
+        font: 400 16px 'Roboto';
+        text-align: center;
+        transform: translateY(-1200%);
+        z-index: -1000;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    .t-shirt-tittle {
+        font: 400 16px 'Roboto';
+        text-align: center;
+        transform: translateY(-1000%);
+        z-index: -1000;
+    }
+}
+
+@media screen and (max-width:967px) {
+    .shop {
+        text-align: center;
+        font: 500 16px 'Roboto';
+    }
+
+    .t-shirt {
+        position: relative;
+        margin-bottom: 30px;
+
+    }
+
+    .t-shirt-img-left {
+        width: 40%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+
+    }
+
+    .t-shirt-img-left li {
+        width: 45%;
+        float: left;
+        margin: 5px;
+        padding: 0;
+    }
+
+    .t-shirt-img-left img {
+        width: 100%;
+    }
+
+    .t-shirt-img-right {
+        width: 40%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        float: right;
+
+    }
+
+    .t-shirt-img-right li {
+        width: 45%;
+        float: left;
+        margin: 5px;
+        position: relative;
+        right: 0;
+        padding: 0;
+    }
+
+    .t-shirt-img-right img {
+        width: 100%;
+    }
+
+    p {
+        font: 400 12px 'Roboto';
+        text-align: center;
+    }
+
+    .t-shirt-tittle {
+        font: 400 14px 'Roboto';
+        text-align: center;
+        transform: translateY(-1000%);
+        z-index: -1000;
+    }
+
+}
+
+@media screen and (max-width:667px) {
+    .shop {
+        text-align: center;
+        font: 500 14px 'Roboto';
+    }
+
+    p {
+        font: 400 12px 'Roboto';
+        text-align: center;
+    }
+
+    .t-shirt-tittle {
+        font: 400 12px 'Roboto';
+        text-align: center;
+        transform: translateY(-1000%);
+        z-index: -1000;
+    }
+}
+
+@media screen and (max-width:414px) {}
+
+@media screen and (max-width:375px) {}
