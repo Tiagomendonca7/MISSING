@@ -106,11 +106,13 @@ ul {
 .busca {
     position: absolute;
     right: 0;
-    top: 65px;
+    top: 60px;
+    padding: 3px;
+
 }
 
 .pesquisa {
-    width: 4%;
+    width: 3%;
     margin-left: 30px;
     float: right;
 }
@@ -147,7 +149,16 @@ ul {
     }
 
     .header-menu li {
-        font-size: 12px;
+        font-size: 16px;
+    }
+
+    .header-submenu{
+        width: 100%;
+    }
+
+    .header-submenu li{
+        width: 100%;
+        font-size:14px;
     }
 
     .busca {
@@ -201,14 +212,59 @@ ul {
     }
 
     .header-menu li {
-        font-size: 9px;
+        font-size: 12px;
         width: 20%;
+    }
+
+    .header-submenu {
+        width: 100%;
+    }
+
+    .header-submenu li {
+        font-size: 12px;
+        width: 100%;
     }
 
     .pesquisa {
         width: 3.5%;
         margin-top: 17px;
         right: 13px;
+
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .header-menu {
+        display: none;
+    }
+    .header-logo {
+        width: 10%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .busca {
+        display: none;
+    }
+
+    .hambur {
+        width: 10%;
+        margin-bottom: 2%;
+        position: absolute;
+        left: 0;
+        display: inline-block;
+        margin-top: 7px;
+    }
+
+    .pesquisa-mobile {
+        width: 10%;
+        margin-bottom: 2%;
+        position: absolute;
+        right: 0;
+        margin-top: 7px;
+        display: inline-block;
 
     }
 }
@@ -403,11 +459,11 @@ ul {
     width: 100%;
 }
 
-.new-arrivals-mobile{
+.new-arrivals-mobile {
     display: none;
 }
 
-.see-more{
+.see-more {
     display: none;
 }
 
@@ -519,6 +575,87 @@ ul {
     }
 }
 
+@media screen and (max-width:414px) {
+    .button-slide h1 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .button-slide p {
+        font-size: 9px;
+        font-weight: 400;
+        border: 1px solid #fff;
+        padding: 3px;
+        width: 50%;
+    }
+
+    .imagem-quadrado-esquerdo-click {
+        font-weight: 400;
+        font-size: 9px;
+        bottom: 18px;
+    }
+
+    .imagem-quadrado-direito-click {
+        font-weight: 400;
+        font-size: 9px;
+        bottom: 18px;
+    }
+
+    .imagem-quadrado-esquerdo-click:hover {
+        font-weight: 400px;
+        font-size: 9px;
+    }
+
+    .imagem-quadrado-direito-click:hover {
+        font-weight: 400;
+        font-size: 9px;
+    }
+
+    .quadrados h1 {
+        font-size: 15px;
+    }
+
+    .simbolo-final {
+        width: 6%;
+        margin-bottom: 15px;
+    }
+
+    .new-arrivals {
+        display: none;
+    }
+
+    .new-arrivals-mobile {
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+
+    .new-arrivals-mobile li {
+        width: 30%;
+        float: left;
+        padding: 5.9px;
+    }
+
+    .new-arrivals-mobile img {
+        width: 100%;
+    }
+
+    .see-more {
+        display: block;
+        position: relative;
+        margin-top: -10px;
+    }
+
+    .see-more p {
+        font: 300 12px 'Roboto';
+        color: grey;
+        text-align: center;
+        padding: 3px;
+    }
+}
+
 @media screen and (max-width:375px) {
     .button-slide h1 {
         font-size: 15px;
@@ -582,17 +719,17 @@ ul {
         padding: 5.9px;
     }
 
-    .new-arrivals-mobile img{
+    .new-arrivals-mobile img {
         width: 100%;
     }
 
-    .see-more{
+    .see-more {
         display: block;
-        position:relative;
+        position: relative;
         margin-top: -10px;
     }
 
-    .see-more p{
+    .see-more p {
         font: 300 12px 'Roboto';
         color: grey;
         text-align: center;
@@ -717,6 +854,33 @@ ul {
     }
 }
 
+@media screen and (max-width:414px) {
+    .barra-preta-footer {
+        height: 60px;
+    }
+    .rede-social {
+        margin-left: 10px;
+        margin-top: 20px;
+
+    }
+    .rede-social li {
+        width: 10%;
+        padding-right: 18px;
+    }
+
+    .menu-footer {
+        right: 20px;
+        top: 20px;
+        width: 40%;
+    }
+
+    .menu-footer li {
+        font-size: 12px;
+        width: 30%;
+        padding: 2px;
+    }
+
+}
 
 @media screen and (max-width:375px) {
     .barra-preta-footer {
@@ -745,3 +909,73 @@ ul {
     }
 
 }
+
+/*SHOP_MISSING_PAGE*/
+
+.shop{
+    text-align: center;
+    font: 500 20px 'Roboto';
+}
+
+.t-shirt{
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.t-shirt-img-left{
+    width: 40%;
+    display: inline-block;
+    margin: 0;
+    padding:0;
+    margin-top: 20px;
+
+}
+
+.t-shirt-img-left li{
+    width: 45%;
+    float: left;
+    margin:13px;
+    padding: 0;
+}
+
+.t-shirt-img-left img{
+    width: 100%;
+}
+
+.t-shirt-img-right{
+    width: 40%;
+    display: inline-block;
+    margin: 0;
+    padding:0;
+    margin-top: 20px;
+    float: right;
+
+}
+
+.t-shirt-img-right li{
+    width: 45%;
+    float: left;
+    margin:13px;
+    position: relative;
+    right: 0;
+    padding: 0;
+}
+
+.t-shirt-img-right img{
+    width: 100%;
+}
+
+p{
+    font: 400 12px 'Roboto';
+    text-align: center;
+}
+
+.t-shirt-tittle{
+    font: 400 16px 'Roboto';
+    text-align: center;
+    transform: translateY(-1300%);
+    z-index: -1000;
+}
+
+
