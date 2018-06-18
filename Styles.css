@@ -578,7 +578,7 @@ ul {
     .new-arrivals-mobile li {
         width: 30%;
         float: left;
-        margin: 1.5%;
+        padding: 5.9px;
     }
 
     .new-arrivals-mobile img{
@@ -587,16 +587,15 @@ ul {
 
     .see-more{
         display: block;
-        margin-bottom: 10px;
         position:relative;
-        margin-top: 0;
+        margin-top: -10px;
     }
 
     .see-more p{
         font: 300 12px 'Roboto';
+        color: grey;
         text-align: center;
         padding: 3px;
-
     }
 }
 
