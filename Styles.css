@@ -1262,30 +1262,8 @@ p {
 @media screen and (max-width:414px) {}
 
 @media screen and (max-width:375px) {
-    .t-shirt-img-left {
-       display: none;
-
-    }
-
-    .t-shirt-img-left li {
-      display: none;
-    }
-
-    .t-shirt-img-left img {
+    .t-shirt{
         display: none;
-    }
-
-    .t-shirt-img-right {
-       display: none;
-
-    }
-
-    .t-shirt-img-right li {
-       display: none;
-    }
-
-    .t-shirt-img-right img {
-      display: none;
     }
 
 
