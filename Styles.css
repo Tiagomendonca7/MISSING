@@ -523,7 +523,7 @@ ul {
         }
     }
 
-    @media screen and (max-width:667px) {
+ @media screen and (max-width:667px) {
         .button-slide h1 {
             font-size: 25px;
             font-weight: 700;
@@ -596,7 +596,7 @@ ul {
         }
     }
 
-    @media screen and (max-width:414px) {
+ @media screen and (max-width:414px) {
         .button-slide h1 {
             font-size: 15px;
             font-weight: 700;
@@ -671,7 +671,7 @@ ul {
 
     }
 
-    @media screen and (max-width:375px) {
+@media screen and (max-width:375px) {
         .button-slide h1 {
             font-size: 15px;
             font-weight: 700;
@@ -744,14 +744,14 @@ ul {
 
 
     /*Footer*/
-    .barra-preta-footer {
+.barra-preta-footer {
         height: 90px;
         width: 100vw;
         background: #000;
         position: relative;
     }
 
-    .rede-social {
+.rede-social {
         margin-top: 30px;
         margin-left: 40px;
         padding: 0px;
@@ -762,17 +762,17 @@ ul {
         cursor: pointer;
     }
 
-    .rede-social li {
+ .rede-social li {
         float: left;
         width: 4%;
         padding-right: 50px;
     }
 
-    .rede-social img {
+.rede-social img {
         width: 100%;
     }
 
-    .menu-footer {
+.menu-footer {
         margin: 0;
         padding: 0;
         float: right;
@@ -784,7 +784,7 @@ ul {
         cursor: pointer;
     }
 
-    .menu-footer li {
+.menu-footer li {
         color: #fff;
         float: right;
         width: 20%;
@@ -795,7 +795,7 @@ ul {
     }
 
     /*media screen Footer*/
-    @media screen and (max-width:1200px) {
+ @media screen and (max-width:1200px) {
         .rede-social {
             margin-left: 30px;
         }
@@ -914,19 +914,18 @@ ul {
     }
 
     /*SHOP_MISSING_PAGE*/
-
-    .shop {
+    .shop{
         text-align: center;
         font: 500 20px 'Roboto';
     }
 
-    .t-shirt {
+    .t-shirt{
         position: relative;
         margin-bottom: 30px;
 
     }
 
-    .t-shirt-img-left {
+    .t-shirt-img-left{
         width: 40%;
         display: inline-block;
         margin: 0;
@@ -935,18 +934,18 @@ ul {
 
     }
 
-    .t-shirt-img-left li {
+    .t-shirt-img-left li{
         width: 45%;
         float: left;
         margin: 10px;
         padding: 0;
     }
 
-    .t-shirt-img-left img {
+    .t-shirt-img-left img{
         width: 100%;
     }
 
-    .t-shirt-img-right {
+    .t-shirt-img-right{
         width: 40%;
         display: inline-block;
         margin: 0;
@@ -956,7 +955,7 @@ ul {
 
     }
 
-    .t-shirt-img-right li {
+    .t-shirt-img-right li{
         width: 45%;
         float: left;
         margin: 10px;
