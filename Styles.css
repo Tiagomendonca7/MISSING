@@ -581,7 +581,6 @@ ul {
 
 }
 
-
 @media screen and (max-width:950px) {
     .slider{
         margin-bottom: 30px;
@@ -606,7 +605,6 @@ ul {
         font-size: 22px;
     }
 }
-
 
 @media screen and (max-width:800px) {
     .button-slide h1 {
@@ -925,7 +923,6 @@ ul {
     }
 }
 
-
 @media screen and (max-width:414px) {
       .slider{
         margin-bottom: 10px;
@@ -1069,8 +1066,9 @@ ul {
         bottom: 18px;
     }
 
-    .quadrados h1 {
-        font-size: 15px;
+    h1 {
+       font-size: 15px;
+        margin-bottom: 1px;
     }
 
     .new-arrivals {
