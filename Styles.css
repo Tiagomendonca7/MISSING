@@ -1302,8 +1302,9 @@ ul {
 }
 
 .t-shirt {
+    display: block;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 
 .t-shirt-img-left {
@@ -1350,11 +1351,10 @@ ul {
 
 p {
     font: 400 12px 'Roboto';
-    text-align: center;
 }
 
-.t-shirt-tittle {
-    font: 400 16px 'Roboto';
+.t-shirt-title {
+    font: 400 18px 'Roboto';
     text-align: center;
     transform: translateY(-1300%);
     cursor: pointer;
@@ -1362,34 +1362,14 @@ p {
 
 /*MEDIA SREEN- SECOND PAGE*/
 
-@media screen and(max-width:1367px) {
+@media screen and (max-width:1367px) {
     .shop {
         text-align: center;
         font: 500 20px 'Roboto';
     }
 
-    .t-shirt-img-left {
-        width: 30%;
-    }
-
-    .t-shirt-img-left li {
-        width: 15%;
-    }
-
-    .t-shirt-img-left img {
-        width: 60%;
-    }
-
-    .t-shirt-img-right {
-        width: 40%;
-    }
-
-    .t-shirt-img-right li {
-        width: 45%;
-    }
-
-    .t-shirt-img-right img {
-        width: 100%;
+    .t-shirt-title{
+        transform: translateY(-1000%);
     }
 }
 
@@ -1428,15 +1408,14 @@ p {
         text-align: center;
     }
 
-    .t-shirt-tittle {
+    .t-shirt-title {
         font: 400 16px 'Roboto';
         transform: translateY(-1200%);
     }
-
 }
 
 @media screen and (max-width:1100px) {
-    .t-shirt-tittle {
+    .t-shirt-title {
         font: 400 16px 'Roboto';
         text-align: center;
         transform: translateY(-1000%);
@@ -1504,7 +1483,7 @@ p {
         text-align: center;
     }
 
-    .t-shirt-tittle {
+    .t-shirt-title {
         font: 400 14px 'Roboto';
         text-align: center;
         transform: translateY(-1000%);
@@ -1514,6 +1493,9 @@ p {
 }
 
 @media screen and (max-width:667px) {
+    .t-shirt{
+        display: none;
+    }
 
 }
 
