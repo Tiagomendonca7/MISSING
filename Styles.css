@@ -580,14 +580,31 @@ ul {
         width: 50%;
     }
 
+    .imagem-quadrado-esquerdo{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .imagem-quadrado-direito{
+        display: none;
+    }
+
     .imagem-quadrado-esquerdo-click {
         font-size: 12px;
-        bottom: 25px;
+        bottom: 45px;
     }
 
     .imagem-quadrado-direito-click {
-        font-size: 12px;
-        bottom: 25px;
+        display: none;
+    }
+
+    .imagem-quadrado-direito-mobile{
+        display: block;
+        width: 100%;
+    }
+
+    .video{
+        width: 100%;
     }
 
     .new-arrivals {
