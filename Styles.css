@@ -486,6 +486,7 @@ ul {
     width: 18%;
     float: left;
     margin: 1%;
+    cursor: pointer;
 }
 
 .new-arrivals img {
@@ -1298,7 +1299,7 @@ ul {
 
 .shop {
     text-align: center;
-    font: 500 20px 'Roboto';
+    font: 600 25px 'Roboto';
 }
 
 .t-shirt {
@@ -1308,57 +1309,50 @@ ul {
 }
 
 .t-shirt-img-left {
-    width: 40%;
+    width: 100%;
     display: inline-block;
     margin: 0;
     padding: 0;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .t-shirt-img-left li {
-    width: 45%;
+    width: 20%;
     float: left;
     margin: 10px;
-    padding: 0;
+    padding: 35px;
+    cursor: pointer;
 }
 
 .t-shirt-img-left img {
     width: 100%;
 }
 
-.t-shirt-img-right {
-    width: 40%;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    margin-top: 20px;
-    float: right;
-
+p {
+    font: 400 14px 'Roboto';
+    text-align: center;
+    cursor: pointer;
 }
 
-.t-shirt-img-right li {
-    width: 45%;
-    float: left;
-    margin: 10px;
-    position: relative;
-    right: 0;
+.t-shirt-sizes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
-}
-
-.t-shirt-img-right img {
+    margin: auto;
     width: 100%;
 }
 
-p {
-    font: 400 12px 'Roboto';
-    cursor: pointer;
-}
-
-.t-shirt-title {
-    font: 400 18px 'Roboto';
+.t-shirt-sizes li{
     text-align: center;
-    transform: translateY(-1300%);
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    font: 300 13px 'Roboto';
     cursor: pointer;
+    transition: 100ms;
 }
 
 .t-shirt-mobile{
@@ -1383,40 +1377,81 @@ p {
         text-align: center;
         font: 500 20px 'Roboto';
     }
+  .t-shirt-img-left {
+    width: 100%;
+    display:flow-root;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.t-shirt-img-left li {
+    width: 20%;
+    float: left;
+    margin: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+    .t-shirt-sizes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.t-shirt-sizes li{
+    text-align: center;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    font: 300 13px 'Roboto';
+    cursor: pointer;
+    transition: 100ms;
+}
+}
+
+@media screen and (max-width:1179px){
     .t-shirt-img-left {
-        width: 40%;
-    }
+    width: 100%;
+    display:flow-root;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
-    .t-shirt-img-left li {
-        width: 43%;
-    }
+.t-shirt-img-left li {
+    width: 19.9%;
+    float: left;
+    margin: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
 
-    .t-shirt-img-left img {
-        width: 100%;
-    }
+    .t-shirt-sizes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
 
-    .t-shirt-img-right {
-        width: 40%;
-    }
-
-    .t-shirt-img-right li {
-        width: 43%;
-    }
-
-    .t-shirt-img-right img {
-        width: 100%;
-    }
-
-    p {
-        font: 400 12px 'Roboto';
-        text-align: center;
-    }
-
-    .t-shirt-title {
-        font: 400 16px 'Roboto';
-        transform: translateY(-1200%);
-    }
+.t-shirt-sizes li{
+    text-align: center;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    font: 300 13px 'Roboto';
+    cursor: pointer;
+    transition: 100ms;
+}
 }
 
 @media screen and (max-width:1100px) {
@@ -1426,6 +1461,43 @@ p {
         transform: translateY(-1000%);
         z-index: -1000;
     }
+
+     .t-shirt-img-left {
+    width: 100%;
+    display:flow-root;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.t-shirt-img-left li {
+    width: 20%;
+    float: left;
+    margin: 16px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+    .t-shirt-sizes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.t-shirt-sizes li{
+    text-align: center;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    font: 300 13px 'Roboto';
+    cursor: pointer;
+    transition: 100ms;
+}
 }
 
 @media screen and (max-width:967px) {
@@ -1506,54 +1578,96 @@ p {
 
 @media screen and (max-width:414px) {
     .t-shirt{
-        display: none;
+        display: block;
     }
 }
 
 @media screen and (max-width:375px) {
-    .t-shirt {
-        display: none;}
+    .t-shirt {display: block;}
 
-    .t-shirt-mobile{
-        display: block;
+    .t-shirt-img-left {
+    width: 100%;
+    display:flow-root;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.title-t-shirt-mobile{
-    font: 500 16px 'Roboto';
+.t-shirt-img-left li {
+    width: 38%;
+    float: left;
+    margin: 11px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+    .t-shirt-sizes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.t-shirt-sizes li{
     text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.t-shirt-mobile ol{
+    float: left;
     padding: 0;
     margin: 0;
+    width: 20%;
+    font: 300 13px 'Roboto';
+    cursor: pointer;
+    transition: 100ms;
+}
+}
+
+@media screen and (max-width:320px) {
+    .shop{
+        margin-top: 30px;
+    }
+
+.t-shirt {
+        display: block;
+    }
+
+.t-shirt-img-left {
     width: 100%;
+    display:flow-root;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.t-shirt-mobile li{
-    width: 45%;
-    float:left;
-    padding: 8.9px
+.t-shirt-img-left li {
+    width: 43%;
+    float: left;
+    margin: 5px;
+    padding: 5.6px;
+    cursor: pointer;
 }
 
-.t-shirt-mobile img{
-    width: 100%;
-}
-
-.texto-title{
-    border: 1px solid black;
-    width: 80%;
+.t-shirt-sizes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
     margin: auto;
-    background-color: #000;
-    opacity: 0.7;
-    text-align: center;
-    font: 600 16px 'Roboto';
-    color: #fff;
-    position: relative;
-    transform: translateY(-550%);
+    width: 100%;
 }
 
+.t-shirt-sizes li{
+    text-align: center;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    font: 300 13px 'Roboto';
+    cursor: pointer;
+    transition: 100ms;
+}
 }
 
 /*------------------------------------------NEW_ARRIVALS_SHOP---------------------------------*/
@@ -1757,6 +1871,43 @@ p {
         font-size: 12px;
         width: 30%;
         padding: 2px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+
+    .simbolo-final {
+        width: 8%;
+        margin-bottom: 15px;
+    }
+
+    .barra-preta-footer {
+        height: 110px;
+    }
+    .rede-social {
+        display:inline-flex;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 35px;
+        width: 50%;
+
+    }
+    .rede-social li {
+        width: 70%;
+        padding: 6px;
+    }
+
+    .menu-footer {
+        right: 20px;
+        top: 20px;
+        width: 50%;
+    }
+
+    .menu-footer li {
+        font-size: 12px;
+        width: 70%;
+        padding: 5px;
     }
 
 }
