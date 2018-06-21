@@ -1866,8 +1866,9 @@ p {
 .titulo-blusa{
     font: 100 14px 'Roboto';
     cursor: pointer;
-    margin-top: 3%;
+    margin-top: 9%;
     opacity: 0.6;
+
 }
 
 .titulo{
