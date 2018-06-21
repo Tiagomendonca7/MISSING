@@ -1893,6 +1893,7 @@ p {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 .imagem-principal-interno{
     width: 65%;
     margin: auto;
@@ -1907,6 +1908,7 @@ p {
     width: 33%;
     display: flex;
     margin: auto;
+    margin-bottom: 10%;
 
 }
 
@@ -1922,9 +1924,10 @@ p {
 }
 
 .texto-interno-shop{
-    width: 50%;
+    width: 30%;
     float: right;
-    margin-top:10%;
+    margin-right: 10%;
+    margin-top:17%;
 }
 
 .texto-descricao{
@@ -1944,7 +1947,22 @@ p {
     padding: 1%;
     margin: auto;
     margin-top: 14%;
+    display: none;
 
+}
+
+@media screen and (max-width:375px){
+    .interno-shop-box{
+        width: 100%;
+        display: block;
+    }
+
+    .texto-interno-shop{
+        display:none;
+        align-items: center;
+        margin: auto;
+
+}
 }
 
 /*-----------------------------------------------FOOTER---------------------------------------*/
